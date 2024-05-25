@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de CEP</title>
+    <link rel="stylesheet" href="CEP.css">
+    <link rel="stylesheet" href="CEP.js">
+</head>
+<body>
+    <header>
+        <h1>Consulta de CEP</h1>
+    </header>
+    <div class="container">
+        <div class="form-group">
+            <input type="text" id="cep-input" placeholder="Digite o CEP" maxlength="8">
+            <button id="consultar-btn">Consultar</button>
+            <button id="salvar-btn" disabled>Salvar</button>
+        </div>
+        <div class="result" id="result"></div>
+        <div class="saved-data">
+            <h2>Endereços Salvos</h2>
+            <div id="saved-addresses"></div>
+        </div>
+    </div>
+    <script src="CEP.js"></script>
+</body>
+</html>
