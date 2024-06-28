@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scripts.js">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <div class="profile-photo">
+            <img src="Minha foto.png" alt="Minha Foto">
+        </div>
+        <div class="bio">
+            <h1>Sobre Mim</h1>
+            <p>Olá! Eu sou Henrique Gabriel Bertoldi. Refiz este portfólio para o trabalho de Programação Front End com o professor Maycon.</p>
+            <p>Atualmente estou cursando Engenharia de Software. Neste semestre, estou focado em aprender Programação Front End e tenho interesse no desenvolvimento de jogos, buscando uma oportunidade nessa área.</p>
+            <h2>Meu Trabalho na Power Vending</h2>
+            <p>A Power Vending desenvolve máquinas totalmente personalizadas para seus clientes, garantindo produtos que atendem às necessidades específicas de cada um.</p>
+            <p>Na empresa, minha função envolve a construção de placas eletrônicas, montagem de micro motores, estruturação da parte elétrica das máquinas, além de realizar testes de qualidade para garantir o funcionamento adequado de todos os componentes.</p>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <h1>Projetos</h1>
+        <main class="content-main">
+        </main>
+    </section>
+
+    <section id="habilidades">
+        <h1>Habilidades</h1>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+    
+    <section id="contato">
+        <h1>Contato</h1>
+        <form id="contact-form">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
